@@ -1,3 +1,5 @@
+package basic
+
 //기본적인 함수 선언 스타일
 fun sum(a:Int, b:Int) : Int{
     return a+b
@@ -19,9 +21,9 @@ fun greeting(message: String = "안녕"){
     println(message)
 }
 
-//fun main(){
-//    greeting()
-//    greeting("hi")
+//fun basic.main(){
+//    basic.greeting()
+//    basic.greeting("hi")
 //}
 
 fun log(level: String="INFO", message: String){

@@ -1,8 +1,10 @@
+package basic
+
 var x = 5
 
 fun main(args: Array<String>) {
     //top level 변수 개념 존재
-    x+= 1
+    x += 1
     println(x)
     //val(value) 재할당 불가
     val e : String = "Hello"
